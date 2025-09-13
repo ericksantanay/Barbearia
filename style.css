@@ -29,6 +29,7 @@
     margin: 0;
     text-decoration: none;
     color: white;
+    box-sizing: border-box;
 }
 
 /*Body*/
@@ -45,5 +46,14 @@ header{
 }
 
 header nav {
-    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
