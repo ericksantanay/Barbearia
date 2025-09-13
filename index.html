@@ -19,10 +19,10 @@
             <li><a href="##sobre">Sobre</a></li>
             <li><a href="##contato">Contato</a></li>
         </ul>
-        <a class="btn" href="#">Agendar Horario</a>
-        <span id="hamburguer-menu" onclick="ClickMenu()" class="material-symbols-outlined">menu<span>
+        <button><a href="#">Agendar Horário</a></button>
+        <span id="menu" onclick="ClickMenu()" class="material-symbols-outlined">menu<span>
        </nav> <!--Nav / Final-->
-       <div id="mobile-menu"> <!--Menu Mobile/ Inicio-->
+       <div id="mobile_menu"> <!--Menu Mobile/ Inicio-->
             <ul>
             <li><a href="#">Menu</a></li>
             <li><a href="#">Serviço</a></li>
@@ -38,7 +38,7 @@
                     <!--Foto de fundo (Background)-->
                     <div id="txt-container">  <!-- Div txt continer / Inicio-->
                         <p>Estilo e tradição em cada corte</p>  <!--Paragrafo-->
-                        <a href="#">Conheça o nosso serviços</a>  <!--Btn-->
+                        <a href="#">Conheça os nossos serviços</a>  <!--Btn-->
                     </div>  <!--Div txt Container / Final-->
                 </article> <!--Article / Final-->
         </section><!--Section 1 / Final-->
@@ -72,8 +72,8 @@
         </section> <!--Section 3 / Final-->
         <section class="container-4"> <!--Section 4 / Inicio-->
             <article>
-                <!--<p>A Barbearia SHOP nasceu da paixão por estilo, tradição e cuidado masculino.
-                Tudo começou em 2015, quando dois amigos decidiram transformar um sonho antigo em realidade: criar um espaço onde os homens pudessem não apenas cortar o cabelo ou aparar a barba, mas também viver uma experiência única.</p> Depois eu tiro o comentario-->
+                <p>A Barbearia SHOP nasceu da paixão por estilo, tradição e cuidado masculino.
+                Tudo começou em 2015, quando dois amigos decidiram transformar um sonho antigo em realidade: criar um espaço onde os homens pudessem não apenas cortar o cabelo ou aparar a barba, mas também viver uma experiência única.</p> 
             </article>
             <article>
                 <img src="img/img-tesoura.jpg" alt="imagem de tesoura">
@@ -89,6 +89,9 @@
                 <p>Telefone: (19)99999-99</p>
             </article>  <!--Article / Final-->
         </section>  <!--Section 5 / Final-->
+        <section> <!--Section 6 / Iinicio-->
+
+        </section> <!--secction 6 / Final-->
     </main> <!--Main / Final-->
 
     <footer> <!--Footer / Inicio-->
@@ -99,5 +102,14 @@
             <a href="#">Agendar Horário pelo WhatsApp</a>
         </div> <!--Div 2 / Final-->
     </footer> <!--Footer / Final-->
+    <script>
+        function ClickMenu(){
+            if (mobile_menu.style.display == 'block') {
+                mobile_menu.style.display = 'none'
+            }else {
+                mobile_menu.style.display = 'block'
+            }    
+        }
+    </script>
 </body>
 </html>
