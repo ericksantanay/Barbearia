@@ -385,6 +385,8 @@ footer div > a:hover{
     /*Main / Section 4*/
 
     main .conteiner-1 article {
+        background-position: center;
+        
         background-image: url(img/foto-inicio-mobile.jpg);
     }
     
