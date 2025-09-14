@@ -43,6 +43,8 @@ header {
     padding: 10px 7%;
     background-color: #44271F;
     border-bottom: 2px solid;
+    position: fixed;
+    z-index: 99%;
 }
 
 header img {
