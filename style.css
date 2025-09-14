@@ -9,7 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 /*Root com cores e fontes*/
-:root{
+:root {
     /*Fontes*/
     --font-menus:"Roboto", sans-serif;
     --font-text: "Public Sans", sans-serif;
@@ -33,21 +33,19 @@
 }
 
 /*Body*/
-body{
-    width: 100vw;
-    height: 100vh;
+body {
     background-color: var(--cor_preta);
 }
 
 /*Header, parte da cabeça*/
-header{
+header {
     width: 100%;
     padding: 10px 7%;
     background-color: #44271F;
     border-bottom: 2px solid;
 }
 
-header img{
+header img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -60,7 +58,7 @@ header nav {
     justify-content: space-between;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     list-style: none;
     gap: 50px;
@@ -70,18 +68,18 @@ header nav ul a{
     font-family: var(--font-menus);
 }
 
-header nav ul a:hover{
+header nav ul a:hover {
     text-decoration: underline;
 }
 
-header nav button{
+header nav button {
     padding: 13px;
     border: none;
     background-color: transparent;
     border-radius: 15px;
 }
 
-header button a{
+header button a {
 
     color: var();
     background-color: var(--cor-cinza);
@@ -92,16 +90,16 @@ header button a{
     box-shadow: 2px 2px 2px 4px rgba(7, 6, 6, 0.036);
 }
 
-header nav button a:hover{
+header nav button a:hover {
     font-size: 22px;
     transition: .3s ease;
 }
 
-header nav #menu{
+header nav #menu {
     display: none;
 }
 
-header #mobile_menu{
+header #mobile_menu {
     display: none;
 }
 
@@ -111,7 +109,7 @@ main{
      padding:0px 7%;
 }
 
-main .conteiner-1 article{
+main .conteiner-1 article {
     height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -125,7 +123,7 @@ main .conteiner-1  article{
     align-items: flex-end;
 }
 
-main .conteiner-1  article #txt-container{
+main .conteiner-1  article #txt-container {
     margin: 10px;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.202);
@@ -133,14 +131,14 @@ main .conteiner-1  article #txt-container{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-main .conteiner-1 >  article > #txt-container > p{
+main .conteiner-1 >  article > #txt-container > p {
     color: var(--cor_preta);
     margin-bottom: 30px;
     font-family: var(--font-titulo);
     font-size: 1.8rem;
 }
 
-main .conteiner-1  article #txt-container > a{
+main .conteiner-1  article #txt-container > a {
     color: var(--cor_preta);
     font-size: 1.5rem;
     background-color: var(--cor_dourada);
@@ -149,21 +147,204 @@ main .conteiner-1  article #txt-container > a{
     font-family: var(--font-btn);
 }
 
-main .conteiner-1  article #txt-container a:hover{
+main .conteiner-1  article #txt-container a:hover {
     font-size: 1.6rem;
     transition: 0.3s;
     background-color: #d59200;
 }
 
+/*Main / Secetion 2 */
 
+main .container-2 {
+    margin-top: 10%;
+}
 
+main .container-2 .geral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+main .container-2 .cont {
+    padding: 10px;
+    text-align: center;
+}
+
+main .container-2 .cont > img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+main .container-2 .cont > p {
+    font-family: var(--font-texto);
+    font-size: 1.2rem;
+}
+
+/*Main / Section 3*/
+
+main .container-3 {
+    margin-top: 10%;
+}
+
+main .container-3 .geral-2 h2 {
+    font-family: var(--font-titulo);
+    padding: 10px;
+    color: var(--cor_dourada);
+}
+
+main .container-3 .geral-2 {
+    width: 300px;
+    height: 390px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--cor_marrom);
+    box-shadow: rgba(159, 150, 150, 0.168) 0px 7px 15px 0px;
+    margin: auto;
+}
+
+main .container-3 .geral-2 article h3 {
+    font-family: var(--font-text);
+    padding: 15px;
+    color: var(--cor_dourada);
+}
+
+main .container-3 .geral-2 article p {
+    font-family: var(--font-texto);
+    font-size: 20px;
+    border-bottom: 2px solid white;
+}
+
+/*Main / Section 4*/
+
+main .container-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+ main .container-4 .barber-txt h2 {
+        padding: 15px;
+        color: var(--cor_dourada);
+    }
+
+main .container-4 .barber-txt {
+    width: 380px;
+    height: 440px;
+    background-color: var(--cor_marrom);
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-family: var(--font-text);
+    font-size: 1.3rem;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+main .container-4 .barber-img > img {
+    width: 500px;
+    height:440px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*Main / section 5*/
+
+main .container-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+main .container-5 .geral-3 {
+    width: 350px;
+    height: 340px;
+    text-align: center;
+    background-color: #44271F;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: var(--font-texto);
+}
+
+main .container-5 .geral-3 article h2 {
+    padding-top: 15px;
+    font-family: var(--font-titulo);
+    color: var(--cor_dourada);
+}
+
+main .container-5 .geral-3 article h3 {
+    padding-top: 15px;
+}
+
+main .container-5 .geral-3 article p {
+    padding-top: 25px;
+}
+
+/*Main / section 6*/
+
+main .container-6 {
+    margin-top: 10%;
+}
+
+main .container-6 h2 {
+    text-align: center;
+    font-family: var(--font-titulo);
+    color: var(--cor_dourada);
+    margin-bottom: 8%;
+}
+
+main .container-6 article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .container-6 img {
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+}
+
+footer {
+    font-family: var(--font-texto);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0px;
+    background-color: var(--cor_marrom);
+}
+
+footer p{
+    padding: 10px;
+}
+
+footer #contatos {
+    padding: 5px;
+}
+
+footer div > a {
+    color: var(--cor_dourada);
+    font-family: var(--font-text);
+}
+
+footer div > a:hover{
+    text-decoration: underline;
+}
 
 /*MEDIA QUERY*/ 
 
 /*Telas pequenas*/
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:1100px) {
    
     header nav #menu{
         display: block;
@@ -191,5 +372,41 @@ main .conteiner-1  article #txt-container a:hover{
 
     header #mobile_menu ul li{
         padding-bottom: 10px;
+    }
+
+    header #mobile_menu ul li a {
+        font-size: 22px;
+    }
+
+    /*Main*/
+
+    /*Main / Section 4*/
+    
+    main .container-4 .barber-txt h2 {
+        padding: 15px;
+        color: var(--cor_dourada);
+    }
+
+    main .container-4 .barber-txt {
+        width: 450px;
+        height: 500px;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    main .container-4 .barber-img > img {
+       display: none;
+    }
+
+    /*Main / Section 5*/
+
+    main .container-5 {
+        margin-top: 15%;
+    }
+
+    /*Footer*/
+
+    footer {
+        margin-top: 10%;
     }
 }
