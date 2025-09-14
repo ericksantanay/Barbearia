@@ -383,6 +383,10 @@ footer div > a:hover{
     /*Main*/
 
     /*Main / Section 4*/
+
+    main .conteiner-1 article {
+        background-image: url(img/foto-inicio-mobile.jpg);
+    }
     
     main .container-4 .barber-txt h2 {
         padding: 15px;
